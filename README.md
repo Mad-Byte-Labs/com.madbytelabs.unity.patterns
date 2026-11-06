@@ -11,7 +11,7 @@ A Unity Package Manager package with eleven reusable game programming patterns. 
 
 Alternatively, copy the whole folder into your project's `Packages` directory as an embedded package.
 
-The intended API baseline is Unity 2022.3 or later. Validation uses Unity 6000.6.3f1; Unity 2022.3 and player builds have not been tested directly.
+The intended API baseline is Unity 2022.3 or later.
 
 ## Patterns and namespaces
 
@@ -46,23 +46,6 @@ See `Documentation~/Patterns.md` for contracts, ownership, timing, and cleanup r
 ## Code conventions
 
 This package follows the [Mad Byte Labs Code Conventions](https://github.com/Mad-Byte-Labs/coding-standards/blob/main/CODE_CONVENTIONS.md), retrieved on November 5, 2026. The official `.editorconfig` is included at the package root.
-
-The project additionally requires exactly one type per file, including supporting types that the company standard would otherwise allow to be nested. English XML documentation is mandatory for every type and public method. Methods without parameters have no `param` tags; void methods and constructors have no `returns` tag.
-
-## Tests
-
-Install Unity Test Framework in the consuming project. Add `"com.madbytelabs.patterns"` to the top-level `testables` array in `Packages/manifest.json`, preserving existing entries. Open **Window → General → Test Runner**.
-
-- **EditMode:** run `MadByteLabs.Patterns.Tests` for twelve tests covering commands, flyweights, subscriptions, cloning, states, queue dispatch, services, pooling, decorators, and factories.
-- **PlayMode:** run `MadByteLabs.Patterns.PlayModeTests` for the singleton initialization and destruction test.
-
-Tests and their helper types are organized by pattern, with exactly one type in every source file. See `Documentation~/Validation.md` for the recorded validation scope.
-
-## Migration from 2.0.0
-
-Version 3.0.0 restores one shared runtime namespace. Replace per-pattern imports such as `MadByteLabs.Patterns.Command` or `MadByteLabs.Patterns.Observer` with `MadByteLabs.Patterns`. Shorten fully qualified runtime types accordingly. Runtime files moved from `Runtime/<Pattern>/` to `Patterns/`; their existing Unity metadata GUIDs are preserved. Reimport the updated sample after removing the old imported demo folder.
-
-The eleven-pattern scope and one-type-per-file rule are unchanged. When migrating from 1.0.0, also update IState.Tick implementations and named arguments to `deltaTimeSeconds`.
 
 ## License
 
