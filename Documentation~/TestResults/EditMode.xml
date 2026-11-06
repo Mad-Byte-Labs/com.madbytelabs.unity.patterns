@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="12" result="Passed" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.0224237">
+  <test-suite type="TestSuite" id="1000" name="mbl-patterns-validation" fullname="mbl-patterns-validation" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.022424" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1023" name="MadByteLabs.Patterns.Tests.dll" fullname="/private/tmp/mbl-patterns-validation/Library/ScriptAssemblies/MadByteLabs.Patterns.Tests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.018832" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="40520" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1024" name="MadByteLabs" fullname="MadByteLabs" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.018727" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1025" name="Patterns" fullname="MadByteLabs.Patterns" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.018689" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1026" name="Tests" fullname="MadByteLabs.Patterns.Tests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.018626" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestSuite" id="1036" name="Command" fullname="MadByteLabs.Patterns.Tests.Command" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.010611" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1021" name="CommandTests" fullname="MadByteLabs.Patterns.Tests.Command.CommandTests" classname="MadByteLabs.Patterns.Tests.Command.CommandTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.010266" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1022" name="HistoryBranchesInvalidateRedo" fullname="MadByteLabs.Patterns.Tests.Command.CommandTests.HistoryBranchesInvalidateRedo" methodname="HistoryBranchesInvalidateRedo" classname="MadByteLabs.Patterns.Tests.Command.CommandTests" runstate="Runnable" seed="1223418398" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.005531" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestSuite" id="1035" name="Decorator" fullname="MadByteLabs.Patterns.Tests.Decorator" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000676" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1019" name="DecoratorTests" fullname="MadByteLabs.Patterns.Tests.Decorator.DecoratorTests" classname="MadByteLabs.Patterns.Tests.Decorator.DecoratorTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000506" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1020" name="DecoratorOrderIsSignificant" fullname="MadByteLabs.Patterns.Tests.Decorator.DecoratorTests.DecoratorOrderIsSignificant" methodname="DecoratorOrderIsSignificant" classname="MadByteLabs.Patterns.Tests.Decorator.DecoratorTests" runstate="Runnable" seed="2122933444" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000319" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestSuite" id="1034" name="EventQueue" fullname="MadByteLabs.Patterns.Tests.EventQueue" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.001766" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1016" name="EventQueueTests" fullname="MadByteLabs.Patterns.Tests.EventQueue.EventQueueTests" classname="MadByteLabs.Patterns.Tests.EventQueue.EventQueueTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.001699" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1017" name="QueueDefersEventsEnqueuedByHandler" fullname="MadByteLabs.Patterns.Tests.EventQueue.EventQueueTests.QueueDefersEventsEnqueuedByHandler" methodname="QueueDefersEventsEnqueuedByHandler" classname="MadByteLabs.Patterns.Tests.EventQueue.EventQueueTests" runstate="Runnable" seed="799138867" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000567" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1018" name="QueueRecoversAfterHandlerThrows" fullname="MadByteLabs.Patterns.Tests.EventQueue.EventQueueTests.QueueRecoversAfterHandlerThrows" methodname="QueueRecoversAfterHandlerThrows" classname="MadByteLabs.Patterns.Tests.EventQueue.EventQueueTests" runstate="Runnable" seed="1634055555" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000916" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestSuite" id="1033" name="Factory" fullname="MadByteLabs.Patterns.Tests.Factory" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000883" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1014" name="FactoryTests" fullname="MadByteLabs.Patterns.Tests.Factory.FactoryTests" classname="MadByteLabs.Patterns.Tests.Factory.FactoryTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000825" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1015" name="FactoryCreatesDistinctObjects" fullname="MadByteLabs.Patterns.Tests.Factory.FactoryTests.FactoryCreatesDistinctObjects" methodname="FactoryCreatesDistinctObjects" classname="MadByteLabs.Patterns.Tests.Factory.FactoryTests" runstate="Runnable" seed="1969520090" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000672" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestSuite" id="1032" name="Flyweight" fullname="MadByteLabs.Patterns.Tests.Flyweight" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000799" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1012" name="FlyweightTests" fullname="MadByteLabs.Patterns.Tests.Flyweight.FlyweightTests" classname="MadByteLabs.Patterns.Tests.Flyweight.FlyweightTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000745" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1013" name="FlyweightCreatesOncePerKey" fullname="MadByteLabs.Patterns.Tests.Flyweight.FlyweightTests.FlyweightCreatesOncePerKey" methodname="FlyweightCreatesOncePerKey" classname="MadByteLabs.Patterns.Tests.Flyweight.FlyweightTests" runstate="Runnable" seed="394767208" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000601" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestSuite" id="1031" name="ObjectPool" fullname="MadByteLabs.Patterns.Tests.ObjectPool" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.001077" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1009" name="ObjectPoolTests" fullname="MadByteLabs.Patterns.Tests.ObjectPool.ObjectPoolTests" classname="MadByteLabs.Patterns.Tests.ObjectPool.ObjectPoolTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.001005" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1011" name="PoolDestroysOverflowAndRequiresReturnedLeases" fullname="MadByteLabs.Patterns.Tests.ObjectPool.ObjectPoolTests.PoolDestroysOverflowAndRequiresReturnedLeases" methodname="PoolDestroysOverflowAndRequiresReturnedLeases" classname="MadByteLabs.Patterns.Tests.ObjectPool.ObjectPoolTests" runstate="Runnable" seed="250897017" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000650" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1010" name="PoolReusesAndRejectsForeignAndDoubleReturns" fullname="MadByteLabs.Patterns.Tests.ObjectPool.ObjectPoolTests.PoolReusesAndRejectsForeignAndDoubleReturns" methodname="PoolReusesAndRejectsForeignAndDoubleReturns" classname="MadByteLabs.Patterns.Tests.ObjectPool.ObjectPoolTests" runstate="Runnable" seed="1132462114" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000141" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestSuite" id="1030" name="Observer" fullname="MadByteLabs.Patterns.Tests.Observer" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000274" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1007" name="ObserverTests" fullname="MadByteLabs.Patterns.Tests.Observer.ObserverTests" classname="MadByteLabs.Patterns.Tests.Observer.ObserverTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000210" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1008" name="SubscriptionDisposalIsIdempotent" fullname="MadByteLabs.Patterns.Tests.Observer.ObserverTests.SubscriptionDisposalIsIdempotent" methodname="SubscriptionDisposalIsIdempotent" classname="MadByteLabs.Patterns.Tests.Observer.ObserverTests" runstate="Runnable" seed="1442276238" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000070" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestSuite" id="1029" name="Prototype" fullname="MadByteLabs.Patterns.Tests.Prototype" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000780" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1005" name="PrototypeTests" fullname="MadByteLabs.Patterns.Tests.Prototype.PrototypeTests" classname="MadByteLabs.Patterns.Tests.Prototype.PrototypeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000730" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1006" name="CloneCreatesIndependentUnityObject" fullname="MadByteLabs.Patterns.Tests.Prototype.PrototypeTests.CloneCreatesIndependentUnityObject" methodname="CloneCreatesIndependentUnityObject" classname="MadByteLabs.Patterns.Tests.Prototype.PrototypeTests" runstate="Runnable" seed="2113147098" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000584" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestSuite" id="1028" name="ServiceLocator" fullname="MadByteLabs.Patterns.Tests.ServiceLocator" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000587" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1003" name="ServiceLocatorTests" fullname="MadByteLabs.Patterns.Tests.ServiceLocator.ServiceLocatorTests" classname="MadByteLabs.Patterns.Tests.ServiceLocator.ServiceLocatorTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000439" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1004" name="ServicesRejectDuplicatesAndClear" fullname="MadByteLabs.Patterns.Tests.ServiceLocator.ServiceLocatorTests.ServicesRejectDuplicatesAndClear" methodname="ServicesRejectDuplicatesAndClear" classname="MadByteLabs.Patterns.Tests.ServiceLocator.ServiceLocatorTests" runstate="Runnable" seed="1774171076" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000297" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestSuite" id="1027" name="State" fullname="MadByteLabs.Patterns.Tests.State" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000841" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1001" name="StateTests" fullname="MadByteLabs.Patterns.Tests.State.StateTests" classname="MadByteLabs.Patterns.Tests.State.StateTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000788" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1002" name="StateExitsBeforeNextEntry" fullname="MadByteLabs.Patterns.Tests.State.StateTests.StateExitsBeforeNextEntry" methodname="StateExitsBeforeNextEntry" classname="MadByteLabs.Patterns.Tests.State.StateTests" runstate="Runnable" seed="1585862793" result="Passed" start-time="2026-11-06 14:06:14Z" end-time="2026-11-06 14:06:14Z" duration="0.000649" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Saving results to: /tmp/mbl-patterns-v3-editmode.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

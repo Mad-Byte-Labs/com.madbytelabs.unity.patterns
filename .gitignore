@@ -1,0 +1,21 @@
+# Generated documentation and Unity metadata for its output folder.
+/docs-build/
+/docs-build.meta
+
+# Local build and IDE output.
+**/[Bb]in/
+**/[Oo]bj/
+/.vs/
+/.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.suo
+*.userprefs
+
+# Operating system files.
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini

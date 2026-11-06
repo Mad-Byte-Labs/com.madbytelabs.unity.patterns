@@ -1,0 +1,26 @@
+# Run `doxygen Doxyfile` from the package root.
+PROJECT_NAME           = "Mad Byte Labs Patterns"
+OUTPUT_DIRECTORY       = docs-build
+OUTPUT_LANGUAGE        = English
+
+# Document the runtime API and guides, excluding tests and samples.
+INPUT                  = Patterns README.md Documentation~/Patterns.md
+FILE_PATTERNS          = *.cs *.md
+RECURSIVE              = NO
+USE_MDFILE_AS_MAINPAGE  = README.md
+MARKDOWN_SUPPORT       = YES
+
+EXTRACT_ALL            = NO
+EXTRACT_PRIVATE        = NO
+HIDE_UNDOC_MEMBERS     = YES
+HIDE_UNDOC_CLASSES     = YES
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_TREEVIEW      = YES
+SEARCHENGINE           = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = NO

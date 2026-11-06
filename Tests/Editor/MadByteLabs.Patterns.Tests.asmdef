@@ -1,0 +1,12 @@
+{
+  "name": "MadByteLabs.Patterns.Tests",
+  "references": [
+    "MadByteLabs.Patterns"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

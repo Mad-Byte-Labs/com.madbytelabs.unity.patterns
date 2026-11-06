@@ -1,0 +1,6 @@
+{
+  "name": "MadByteLabs.Patterns.Demo",
+  "references": [
+    "MadByteLabs.Patterns"
+  ]
+}

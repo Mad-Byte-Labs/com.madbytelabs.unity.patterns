@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.0195458">
+  <test-suite type="TestSuite" id="1014" name="mbl-patterns-validation" fullname="mbl-patterns-validation" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.019546" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1003" name="MadByteLabs.DemoValidation.dll" fullname="/private/tmp/mbl-patterns-validation/Library/ScriptAssemblies/MadByteLabs.DemoValidation.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.013895" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="40588" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1004" name="MadByteLabs" fullname="MadByteLabs" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.013695" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1005" name="Validation" fullname="MadByteLabs.Validation" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.013610" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="DemoSmokeTests" fullname="MadByteLabs.Validation.DemoSmokeTests" classname="MadByteLabs.Validation.DemoSmokeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.013211" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="DemonstratesAllElevenPatterns" fullname="MadByteLabs.Validation.DemoSmokeTests.DemonstratesAllElevenPatterns" methodname="DemonstratesAllElevenPatterns" classname="MadByteLabs.Validation.DemoSmokeTests" runstate="Runnable" seed="1996043008" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.008682" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Command: 1
+Flyweight: SHARED
+Observer: hello
+Prototype: Prototype source(Clone)
+Singleton: True
+State: entered idle
+State: exited idle
+Event Queue: deferred
+Service Locator: resolved
+Object Pool: 1
+Decorator: 30
+Factory: Object
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1008" name="MadByteLabs.Patterns.PlayModeTests.dll" fullname="/private/tmp/mbl-patterns-validation/Library/ScriptAssemblies/MadByteLabs.Patterns.PlayModeTests.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.001130" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="40588" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1009" name="MadByteLabs" fullname="MadByteLabs" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.000998" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1010" name="Patterns" fullname="MadByteLabs.Patterns" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.000945" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1011" name="Tests" fullname="MadByteLabs.Patterns.Tests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.000896" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestSuite" id="1012" name="Singleton" fullname="MadByteLabs.Patterns.Tests.Singleton" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.000838" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1006" name="SingletonTests" fullname="MadByteLabs.Patterns.Tests.Singleton.SingletonTests" classname="MadByteLabs.Patterns.Tests.Singleton.SingletonTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.000775" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1007" name="RegistersInstanceAndClearsItOnDestruction" fullname="MadByteLabs.Patterns.Tests.Singleton.SingletonTests.RegistersInstanceAndClearsItOnDestruction" methodname="RegistersInstanceAndClearsItOnDestruction" classname="MadByteLabs.Patterns.Tests.Singleton.SingletonTests" runstate="Runnable" seed="1947252378" result="Passed" start-time="2026-11-06 14:06:40Z" end-time="2026-11-06 14:06:40Z" duration="0.000536" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Saving results to: /tmp/mbl-patterns-v3-playmode.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

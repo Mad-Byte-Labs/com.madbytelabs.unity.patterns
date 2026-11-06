@@ -1,0 +1,9 @@
+{
+  "name": "MadByteLabs.Patterns.PlayModeTests",
+  "references": [
+    "MadByteLabs.Patterns"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}
