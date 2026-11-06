@@ -41,7 +41,17 @@ Select the package in Package Manager, open **Samples**, and import **Patterns D
 
 Use `using MadByteLabs.Patterns;` to import the runtime API. In a namespace that contains a conflicting name, use the fully qualified type, such as `MadByteLabs.Patterns.ServiceLocator`.
 
-See `Documentation~/Patterns.md` for contracts, ownership, timing, and cleanup rules. The demo's helper types are separate files in feature folders; do not combine them into a single listing.
+## Documentation
+
+[View the documentation](https://mad-byte-labs.github.io/com.madbytelabs.unity.patterns/).
+
+The documentation includes an API reference generated from the C# XML comments and guides for using the patterns. It is built with Doxygen and published to GitHub Pages automatically after each push to `main`.
+
+To generate the documentation locally, install Doxygen and run the following command from the package root:
+
+    doxygen Doxyfile
+
+Open `docs-build/html/index.html` to browse the generated documentation.
 
 ## Code conventions
 
